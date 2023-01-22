@@ -29,10 +29,10 @@ export default component$(() => {
         <h2>Projects</h2>
         <div class="flex flex-col gap-8">
           <Project title="LocalToMe" url="/projects/localtome" image="/localtome/LocalToMe1.png" text="LocalToMe is a web application that locates and provides low-income families/individuals with free & accessible food resources near their area within their budgets." tools="Next JS, React, Styled-components, Material UI, Storybook, Firebase, Mapbox,  Algolia"/>
-          <Project title="RainCheck" url="/projects/raincheck" image="/raincheck/Raincheck.png" text="RainCheck is an interactive map web application providing insights on the Vancouver housing market and lets you know how long it takes you to afford one. Created during BCIT’s QDS 2023 Hackathon." tools="Next JS, React, Styled-components, TailwindCSS, React Leaflet, Axios, Chart Js"/>
-          <Project title="AquaPal" url="/projects/aquapal" image="/aquapal/AquaPal.png" text="AquaPal is a web application that helps you reach your water goals, to aid you reaching your goals, you can choose between having a monkey or an otter as a pet. They help you in having fun while drinking your water." tools="Express, EJS, SQLite3, SQLite, Axios"/>
+          <Project title="RainCheck" url="/projects/raincheck" image="/raincheck/RainChecks.png" text="RainCheck is an interactive map web application providing insights on the Vancouver housing market and lets you know how long it takes you to afford one. Created during BCIT’s QDS 2023 Hackathon." tools="Next JS, React, Styled-components, TailwindCSS, React Leaflet, Axios, Chart Js"/>
+          <Project title="AquaPal" url="/projects/aquapal" image="/aquapal/AquaPals.png" text="AquaPal is a web application that helps you reach your water goals, to aid you reaching your goals, you can choose between having a monkey or an otter as a pet. They help you in having fun while drinking your water." tools="Express, EJS, SQLite3, SQLite, Axios"/>
           <Project title="ShareFood" url="/projects/sharefood" doubleimage={["/sharefood/ShareFoodMain.png", "/sharefood/ShareFood.png"]} text="ShareFood is a web application that has the goal to save food by sharing it with others; whether, it be receiving or giving away leftover foods. It tells you details about the food and has many fun stories to explore." tools="Next JS, React, Styled-components, Material UI"/>
-          <Project title="Genshinfy" url="/projects/genshinfy" image="/genshinfy/Genshinfy.png" text="Genshinfy is a music player web application that allows people to upload and listen to music, mainly from the game Genshin Impact. Developed the application as an individual as a solo project to explore using the framework Nuxt 3/Vue Js." tools="Nuxt 3, Vue JS, Typescript, TailwindCSS, Howler JS, Firebase, Pinia, Vee-Validate"/>
+          <Project title="Genshinfy" url="/projects/genshinfy" image="/genshinfy/Genshinfys.png" text="Genshinfy is a music player web application that allows people to upload and listen to music, mainly from the game Genshin Impact. Developed the application as an individual as a solo project to explore using the framework Nuxt 3/Vue Js." tools="Nuxt 3, Vue JS, Typescript, TailwindCSS, Howler JS, Firebase, Pinia, Vee-Validate"/>
         </div>
       </div>
 
@@ -43,11 +43,11 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-  title: 'Welcome to Qwik',
+  title: 'Philip Ho Portfolio',
   meta: [
     {
-      name: 'description',
-      content: 'Qwik site description',
+      name: 'Philip Ho Portfolio for front end development made in Qwik.',
+      content: 'Philip Ho Portfolio for front end development made in Qwik.',
     },
   ],
 };

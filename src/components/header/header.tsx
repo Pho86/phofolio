@@ -1,27 +1,24 @@
-import { component$, useStylesScoped$ } from '@builder.io/qwik';
-import styles from './header.css?inline';
+import { component$ } from '@builder.io/qwik';
 
 export default component$(() => {
-  useStylesScoped$(styles);
-
   return (
-    <header>
-      <div class="flex ml-5 items-center font-bold text-2xl">
+    <header class="bg-zinc-800 flex border-b-sky-600 border-b-8">
+      <div class="flex px-5 items-center font-bold text-2xl ">
         <a class="flex justify-center" href="/" title="Go Back Home">
           Philip Ho Portfolio
         </a>
       </div>
-      <ul>
-        <li>
-          <a href="https://github.com/Pho86">
+      <ul class="m-0 pl-1 text-right flex-1 p-2">
+        <a href="https://github.com/Pho86" class="px-8 py-4 hover:font-bold hover:bg-neutral-900" >
+          <li class="inline-block h-full">
             Github
-          </a>
-        </li>
-        <li>
-          <a href="https://qwik.builder.io/examples/introduction/hello-world/">
+          </li>
+        </a>
+        <a href="https://qwik.builder.io/examples/introduction/hello-world/" class="px-8 py-4 hover:font-bold hover:bg-neutral-900">
+          <li class="inline-block">
             See Resume
-          </a>
-        </li>
+          </li>
+        </a>
       </ul>
     </header>
   );

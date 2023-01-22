@@ -11,7 +11,7 @@ export interface projectProps {
 
 export const Project = component$((props: projectProps) => {
    return (
-      <div class="w-full bg-gradient-to-t from-neutral-700 to-neutral-800 rounded-2xl px-4 py-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+      <div class="w-full bg-gradient-to-l from-stone-700 to-neutral-800 rounded-2xl px-4 py-6 grid grid-cols-1 gap-6 md:grid-cols-2">
          <div class="flex justify-center w-full">
             {props.doubleimage &&
             <div class="flex justify-between w-full gap-2">
