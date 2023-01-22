@@ -6,6 +6,9 @@
  *
  */
  @import url('https://fonts.googleapis.com/css2?family=Archivo');
+ @tailwind base;
+ @tailwind components;
+ @tailwind utilities;
 
 :root {
   --qwik-dark-blue: #006ce9;
@@ -19,6 +22,27 @@ body {
   font-family: 'Archivo', sans-serif;
   padding: 20px 20px 40px 20px;
 }
+h1, h2  {
+  @apply mb-2;
+}
+h1 {
+  @apply text-3xl;
+  @apply mb-2;
+  @apply font-extrabold;
+}
+h2 {
+  @apply text-lg;
+  @apply font-bold;
+}
+figure {
+  @apply my-5;
+  @apply flex;
+  @apply flex-col;
+  @apply items-center;
+}
+figcaption {
+  @apply mt-2;
+}
 
 main {
   max-width: 768px;
@@ -29,19 +53,12 @@ main {
   overflow: hidden;
   color: rgb(239, 245, 249);
 }
+
 button {
   font-family: 'Archivo', sans-serif;
   font-size: 1rem;
 }
 
-h1,
-h2 {
-  margin: 0 0 5px 0;
-}
-
-/* .lightning {
-  filter: hue-rotate(180deg);
-} */
 
 section {
   padding: 2em 2.5em;

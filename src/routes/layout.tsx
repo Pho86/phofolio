@@ -10,9 +10,18 @@ export default component$(() => {
           <Slot />
         </section>
       </main>
-      <footer>
+      <footer class="text-zinc-50 flex gap-5 justify-center font-bold text-lg">
+        <a href="https://github.com/Pho86/" target="_blank">
+          Github
+        </a>
+        <a href="https://www.linkedin.com/in/philippho/" target="_blank">
+          LinkedIn
+        </a>
         <a href="https://www.builder.io/" target="_blank">
-          Made with ♡ by Builder.io
+          Email
+        </a>
+        <a href="https://www.builder.io/" target="_blank">
+          Resume
         </a>
       </footer>
     </>
