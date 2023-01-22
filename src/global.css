@@ -1,0 +1,91 @@
+/**
+ * WHAT IS THIS FILE?
+ *
+ * Globally applied styles. No matter which components are in the page or matching route,
+ * the styles in here will be applied to the Document, without any sort of CSS scoping.
+ *
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Archivo');
+
+:root {
+  --qwik-dark-blue: #006ce9;
+  --qwik-light-blue: #18b6f6;
+  --qwik-light-purple: #ac7ff4;
+  --qwik-dark-purple: #713fc2;
+}
+
+body {
+  background-color: #000000;
+  font-family: 'Archivo', sans-serif;
+  padding: 20px 20px 40px 20px;
+}
+
+main {
+  max-width: 768px;
+  margin: 0 auto;
+  background-color: rgb(75, 81, 85);
+  border-radius: 5px;
+  box-shadow: 0px 0px 120px -40px var(--qwik-light-blue);
+  overflow: hidden;
+  color: rgb(239, 245, 249);
+}
+button {
+  font-family: 'Archivo', sans-serif;
+  font-size: 1rem;
+}
+
+h1,
+h2 {
+  margin: 0 0 5px 0;
+}
+
+/* .lightning {
+  filter: hue-rotate(180deg);
+} */
+
+section {
+  padding: 2em 2.5em;
+  border-bottom: 10px solid var(--qwik-dark-blue);
+}
+
+ul {
+  list-style-type: square;
+  margin: 5px 0 30px 0;
+  padding-left: 25px;
+}
+
+li {
+  padding: 8px 0;
+}
+
+li::marker {
+  color: var(--qwik-light-blue);
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+
+footer {
+  padding: 15px;
+  text-align: center;
+  font-size: 0.8em;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 2em 0em;
+}
+
+figcaption {
+  text-align: center;
+}
