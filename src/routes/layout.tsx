@@ -17,10 +17,10 @@ export default component$(() => {
         <a href="https://www.linkedin.com/in/philippho/" target="_blank">
           LinkedIn
         </a>
-        <a href="https://www.builder.io/" target="_blank">
+        <a href="mailto:philip03ho@gmail.com" target="_blank">
           Email
         </a>
-        <a href="https://www.builder.io/" target="_blank">
+        <a href="https://github.com/Pho86/" target="_blank">
           Resume
         </a>
       </footer>

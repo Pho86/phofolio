@@ -1,7 +1,6 @@
 import { component$, } from "@builder.io/qwik"
 export interface buttonProps {
    text: string
-   color?: string
    url: string
 }
 

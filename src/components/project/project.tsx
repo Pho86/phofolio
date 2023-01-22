@@ -3,9 +3,9 @@ import { Button } from "../button/button"
 export interface projectProps {
    title: string
    url: string
-   image: string
    text: string
-   doubleimage: array[]
+   image?: string
+   doubleimage?: array[]
    tools: string
 }
 

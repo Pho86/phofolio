@@ -14,7 +14,7 @@ export default component$(() => {
             Github
           </li>
         </a>
-        <a href="https://qwik.builder.io/examples/introduction/hello-world/" class="px-8 py-4 hover:font-bold hover:bg-neutral-900">
+        <a href="https://github.com/Pho86/" class="px-8 py-4 hover:font-bold hover:bg-neutral-900">
           <li class="inline-block">
             See Resume
           </li>
