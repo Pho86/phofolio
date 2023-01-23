@@ -21,7 +21,7 @@ export const Project = component$((props: projectProps) => {
          "w-full bg-gradient-to-l  from-stone-700 to-neutral-800 rounded-2xl px-6 py-6 grid gap-6 "
       )}>
          {props.align ? <>
-            <div class="flex flex-col gap-6 md:grid md:grid-cols-2">
+            <div class="flex flex-col gap-6 md:grid md:grid-cols-[55%_42%]">
                <div class="flex justify-center w-full">
                   {props.doubleimage &&
                      <div class="flex justify-between w-full gap-2">
@@ -52,7 +52,7 @@ export const Project = component$((props: projectProps) => {
             </div>
          </> :
             <>
-               <div class="flex flex-col-reverse gap-6 md:grid md:grid-cols-2">
+               <div class="flex flex-col-reverse gap-6 md:grid md:grid-cols-[42%_55%]">
                   <div class="flex justify-center w-full">
                      <div class="flex flex-col justify-between gap-3">
                         <div class="flex justify-between">
