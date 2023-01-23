@@ -5,7 +5,7 @@ export interface projectProps {
    url: string
    text: string
    image?: string
-   doubleimage?: array[]
+   doubleimage?: string[]
    tools: string
 }
 
@@ -26,7 +26,7 @@ export const Project = component$((props: projectProps) => {
                <h2 class="text-2xl">{props.title}</h2>
             </a>
             <p>{props.text}</p>
-            <p><b>Tech:</b> {props.tools}</p>
+            <p><b>Tech used:</b> {props.tools}</p>
             <Button text="Learn More" url={props.url} />
          </div>
       </div>
