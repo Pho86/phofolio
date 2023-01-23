@@ -29,7 +29,7 @@ export default component$(() => {
           <Logo text="TailwindCSS" image="/logos/tailwindcss.png" />
           <Logo text="Styled-components" image="/logos/styled-components.png" />
           <Logo text="SASS" image="/logos/sass.png" />
-          <Logo text="Storybook" image="/logos/storybook.png" />
+          <Logo text="Storybook" image="/logos/story.png" />
           <Logo text="Firebase" image="/logos/firebase.webp" />
           <Logo text="SQLite" image="/logos/sqlite.png" />
           <Logo text="Figma" image="/logos/Figma.png" />
