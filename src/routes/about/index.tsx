@@ -5,7 +5,7 @@ export default component$(() => {
    return (
       <div class="flex flex-col gap-10">
          <h1>About Page</h1>
-
+            
       </div>
    )
 })

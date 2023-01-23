@@ -12,7 +12,7 @@
 
 :root {
   --qwik-dark-blue: #006ce9;
-  --qwik-light-blue: #18b6f6;
+  --qwik-light-blue: #3fd7f9;
   --qwik-light-purple: #ac7ff4;
   --qwik-dark-purple: #713fc2;
 }
@@ -42,13 +42,14 @@ figure {
 }
 figcaption {
   @apply mt-2;
+  @apply text-center
 }
 
 main {
   max-width: 768px;
   margin: 0 auto;
   border-radius: 5px;
-  box-shadow: 0px 0px 120px -40px var(--qwik-light-blue);
+  box-shadow: 0px 0px 180px -40px rgba(63, 215, 249, .8);
   overflow: hidden;
   color: rgb(239, 245, 249);
 }
@@ -79,29 +80,12 @@ li::marker {
 }
 
 
-a:hover {
-  text-decoration: none;
-}
-
-
 footer {
   padding: 15px;
   text-align: center;
   font-size: 0.8em;
 }
 
-footer a {
-  text-decoration: none;
-}
-
 footer a:hover {
   text-decoration: underline;
-}
-
-hr {
-  margin: 2em 0em;
-}
-
-figcaption {
-  text-align: center;
 }
