@@ -11,7 +11,7 @@ export default component$(() => {
       <div>
 
         <h2>Introduction</h2>
-        <p>I am currently an aspiring Front-end Developer studying at BCIT's Digital Design and Development program. I am always looking for new challenges and opportunities to work with innovative technologies and improve my skills and currently looking for a practicum. Thank you for visiting my site, and I hope you enjoy exploring my work.</p>
+        <p>I am currently an aspiring Front-end Developer studying at BCIT's Digital Design and Development program. I am always looking for new challenges and opportunities to work with innovative technologies and improve my skills and currently looking for a practicum.</p>
       </div>
       <div>
         <h2>Skills</h2>
