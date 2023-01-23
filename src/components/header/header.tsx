@@ -5,7 +5,7 @@ export default component$(() => {
     <header class="bg-zinc-800 flex border-b-sky-600 border-b-8">
       <div class="flex px-5 items-center font-bold text-2xl ">
         <a class="flex justify-center" href="/" title="Go Back Home">
-          Philip Ho Portfolio
+          Home
         </a>
       </div>
       <ul class="m-0 pl-1 text-right flex-1 p-2">

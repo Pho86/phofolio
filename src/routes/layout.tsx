@@ -4,7 +4,7 @@ import Header from '../components/header/header';
 export default component$(() => {
   return (
     <>
-      <main class=" bg-gradient-to-t from-zinc-900 to-neutral-900">
+      <main class="bg-gradient-to-t from-zinc-900 to-neutral-900 scroll-auto">
         <Header />
         <section>
           <Slot />
