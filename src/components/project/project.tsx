@@ -1,5 +1,6 @@
 import { component$, } from "@builder.io/qwik"
-import { Button } from "../button/button"
+import { Button } from "../button/button";
+import { twMerge } from 'tailwind-merge'
 export interface projectProps {
    title: string
    url: string
@@ -10,11 +11,15 @@ export interface projectProps {
    giturl: string
    liveurl: string
    align?: boolean
+   fadeIn?: boolean
 }
 
 export const Project = component$((props: projectProps) => {
    return (
-      <div class="w-full bg-gradient-to-l from-stone-700 to-neutral-800 rounded-2xl px-6 py-6 grid grid-cols-1 gap-6 md:grid-cols-2">
+      <div class={twMerge(
+         props.fadeIn ? "animate-fadeInLeft delay-1000" : "animate-fadeInRight delay-1000",
+         "w-full bg-gradient-to-l from-stone-700 to-neutral-800 rounded-2xl px-6 py-6 grid grid-cols-1 gap-6 md:grid-cols-2"
+      )}>
          {props.align ? <>
             <div class="flex justify-center w-full">
                {props.doubleimage &&
