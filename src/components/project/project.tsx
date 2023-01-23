@@ -79,7 +79,7 @@ export const Project = component$((props: projectProps) => {
                         <img src={props.doubleimage[1]} class="w-1/2 justify-self-center" />
                      </div>
                   }
-                  {props.image && <img src={props.image} class="rounded justify-self-center md:w-full" />}
+                  {props.image && <img src={props.image} class="rounded justify-self-center h-full md:w-full" />}
                </div>
             </>
          }
