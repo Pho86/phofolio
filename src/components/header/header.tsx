@@ -3,7 +3,7 @@ import { component$ } from '@builder.io/qwik';
 export default component$(() => {
   return (
     <header class="bg-zinc-800 flex border-b-sky-600 border-b-8">
-      <div class="flex px-5 items-center font-bold text-2xl ">
+      <div class="flex px-8 items-center font-bold text-2xl ">
         <a class="flex justify-center" href="/" title="Go Back Home">
           Home
         </a>
