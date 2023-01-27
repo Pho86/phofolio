@@ -89,3 +89,6 @@ footer {
 footer a:hover {
   text-decoration: underline;
 }
+hr {
+  @apply my-8;
+}

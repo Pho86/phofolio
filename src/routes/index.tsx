@@ -9,7 +9,7 @@ export default component$(() => {
         <h1 class="text-5xl leading-tight">
           Front-End Developer, <br /> Philip Ho
         </h1>
-        <hr />
+        <hr class="my-0"/>
         <div class="animate-fadeInDown delay-75">
           <h2 class="font-medium">I am an aspiring Front-End Developer who develops for web and mobile with a focus on providing users with the most seamless experience possible.</h2>
         </div>
