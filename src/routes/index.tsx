@@ -7,7 +7,7 @@ export default component$(() => {
     <div class="flex flex-col gap-10 ">
       <div class="max-w-[75%] flex flex-col gap-5 animate-fadeInDown">
         <h1 class="text-5xl leading-tight">
-          Front-End Developer, <br /> Philip Ho
+          Front-End Developer, <br /> <span class="text-sky-400 text-6xl">Philip Ho</span>
         </h1>
         <hr class="my-0"/>
         <div class="animate-fadeInDown delay-75">
