@@ -7,7 +7,7 @@ export interface projectProps {
    text: string
    image?: string
    doubleimage?: string[]
-   tools: string
+   tech: string
    giturl: string
    liveurl: string
    align?: boolean
@@ -48,7 +48,7 @@ export const Project = component$((props: projectProps) => {
                      </div>
                   </div>
                   <p>{props.text}</p>
-                  <p><b>Tech used:</b> {props.tools}</p>
+                  <p><b>Tech used:</b> {props.tech}</p>
                   <Button text="Learn More" url={props.url} />
                </div>
             </div>
@@ -71,7 +71,7 @@ export const Project = component$((props: projectProps) => {
                            </div>
                         </div>
                         <p>{props.text}</p>
-                        <p><b>Tech used:</b> {props.tools}</p>
+                        <p><b>Tech used:</b> {props.tech}</p>
                         <Button text="Learn More" url={props.url} />
                      </div>
                   </div>

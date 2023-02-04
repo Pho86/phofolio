@@ -1,84 +1,58 @@
----
-layout: "../layout.tsx"
-title: LocalToMe
----
-import { Button } from "../../../components/button/button";
-
 # LocalToMe
-<div class="flex flex-col gap-1">
-<div class="grid grid-cols-1 md:grid-cols-2 animate-fadeInDown">
-<div >
+
 * **Project Scope:** 4 months, September – December 2022
 * **Project Type:** 6 person project, (2 Designers, 4 Developers)
 * **Role:** Front-end Developer | UI/UX Designer
 * **Tech used:** Next JS, React, Styled-components, Storybook, Framer-motion, Firebase, Mapbox, Algolia
-<div class="flex justify-evenly flex-col gap-5 md:flex-row md:gap-4">
-   <Button text="Github Repo" url="https://github.com/phoenixlai833/localtome"/>
-   <Button text="Live Site" url="https://localtome.vercel.app/"/>
-</div>
-</div>
-<figure class="mt-0">
-<img src="/localtome/LocalToMe1.png" class="w-full h-full" alt="LocalToMe Helps find food resources"/>
+
+<figure>
+<img src="/localtome/LocalToMe1.png" alt="LocalToMe Helps find food resources"/>
   <figcaption>
     LocalToMe helps low-income families find food resources near them.
   </figcaption>
 </figure>
-</div>
-<hr/>
-<br/>
+
 ## Project Brief
 LocalToMe is a web application that locates and provides low-income families/individuals with free & accessible food resources near their area within their budgets. To accomplish this project, I collaborated with 5 other members, 3 developers and 2 designers from BCIT’s Full Stack Web Development and Digital Design and Development. 
-<div class="flex flex-col md:flex-row gap-2 animate-fadeInLeft">
+
 <figure>
-<img src="/localtome/Local2.png" class="w-1/2 h-full" alt="LocalToMe food bank information pertaining to each location."/>
+<img src="/localtome/Local2.png" alt="LocalToMe food bank information pertaining to each location."/>
   <figcaption>
     Has a map of locations that people can visit for accessible resources.
   </figcaption>
 </figure>
 <figure>
-<img src="/localtome/Local1.png" class="w-1/2" alt="LocalToMe map with food resources near you."/>
+<img src="/localtome/Local1.png" alt="LocalToMe map with food resources near you."/>
   <figcaption>
     Each location has information that people would want to know before they arrive.
   </figcaption>
 </figure>
-</div>
-
 
 ## The Process
 Throughout this project, we had to figure out what underprivileged people actually wanted and how we would help them. To do so, we tried to contact food banks themselves, but they were unresponsive and tried to look into webscraping, but deemed that out of scope. Then we found a public API that sourced out all of the free, low cost programs in downtown Vancouver. 
-<div class="flex flex-col md:flex-row animate-fadeInLeft">
+
 <figure>
 <img src="/localtome/foodbankapi.png" class="w-full" alt="City’s of Vancouver’s Open Data portal for public data"/>
   <figcaption>
     City’s of Vancouver’s Open Data portal for public data
   </figcaption>
 </figure>
-</div>
 
 ## Challenges and Outcome
 A challenge I faced, was this project was the first time I was worked with using data from an actual database (Firebase), and had to figure out how to grab data and incorporate it into our designs. During the project, I focused on scripting reusable components for the front-end, helped designing the prototype, and creating responsive web design. Furthermore, developed a documentation and organization system for the components that team members would follow when scripting components.
 <br/>
 In the end, we were able to successfully build a fully functional web application and present our project to industry experts and over 100 people.
-<div class="flex flex-col md:flex-row gap-2 animate-fadeInDown">
+
 <figure>
-<img src="/localtome/appstore.png" class="w-1/2 h-full " alt="LocalToMe on the app store."/>
+<img src="/localtome/appstore.png" alt="LocalToMe on the app store."/>
   <figcaption>
     LocalToMe on the app store.
   </figcaption>
 </figure>
 <figure>
-<img src="/localtome/landing.png" class="w-1/2 h-full" alt="LocalToMe onboarding screen."/>
+<img src="/localtome/landing.png" alt="LocalToMe onboarding screen."/>
   <figcaption>
     Find resources near you with LocalToMe.
   </figcaption>
 </figure>
-</div>
 
-<div class="flex flex-col items-center mt-2">
-## Links to Github Repo and Live Site
-<div class="flex justify-evenly w-full flex-col gap-5 md:flex-row md:gap-4 mt-2">
-<Button text="Github Repo" url="https://github.com/phoenixlai833/localtome"/>
-<Button text="Live Site" url="https://localtome.vercel.app/"/>
-</div>
-</div>
-</div>

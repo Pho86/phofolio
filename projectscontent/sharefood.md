@@ -1,84 +1,44 @@
----
-layout: "../layout.tsx"
-title: Share Food
----
-import { Button } from "../../../components/button/button";
-
 # Share Food
-<div class="flex flex-col gap-1">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-4 animate-fadeInDown">
-<div>
+
 * **Project Scope:** 5 months, January 2022 – May 2022
 * **Project Type:** 3 person project
 * **Role:** Lead Developer
 * **Tech used:** Next JS, React, Styled-components
-<div class="flex justify-evenly flex-col gap-5 md:flex-row md:gap-4">
-   <Button text="Github Repo" url="https://github.com/Pho86/ShareFood"/>
-   <Button text="Live Site" url="https://sharefood.vercel.app/"/>
-</div>
-</div>
-<div class="flex flex-col gap-2">
-   <div class="flex justify-center items-center">
-   <figure>
-         <img src="/sharefood/ShareFoodMain.png" class="w-8/12" alt="LocalToMe food bank information pertaining to each location."/>
-   </figure>
-   <figure>
-      <img src="/sharefood/ShareFood.png" class="w-8/12" alt="LocalToMe map with food resources near you."/>
-   </figure>
-   </div>
-   <p class="text-center">Share Food is here to help you find or receive food resources that is about to be thrown out.</p>
-</div>
-</div>
-<br/>
-<hr/>
-<br/>
+
 ## Project Brief
 ShareFood is a web application that has the goal to save food by sharing it with others; whether, it be receiving or giving away leftover foods. It tells you details about the food and has many fun stories to explore.
-<div class="flex flex-col md:flex-row gap-2 animate-fadeInLeft">
+
 <figure>
-<img src="/sharefood/OrderDetail.png" class="w-1/2" alt="Confirmation page to receive food."/>
+<img src="/sharefood/OrderDetail.png" alt="Confirmation page to receive food."/>
   <figcaption>
     Confirmation page to receive food.
   </figcaption>
 </figure>
 <figure>
-<img src="/sharefood/OrderDetails.png" class="w-1/2" alt="Confirmation page after you confirmed to receive a food"/>
+<img src="/sharefood/OrderDetails.png" alt="Confirmation page after you confirmed to receive a food"/>
   <figcaption>
     Confirmation page after you confirmed to receive a food.
   </figcaption>
 </figure>
-</div>
-
 
 ## The Process
 During the project, I focused on scripting functionalities of the application and creating mock databases (in JSON files), and would handle any Git conflicts and merges during the project. For the main functionality with the JSON files, I would loop through the JSON file and map it out based off the query. 
-<div class="flex flex-col md:flex-row animate-fadeInRight">
+
 <figure>
-<img src="/sharefood/JSON.png" class="w-full" alt="1 of Share Food's JSON files that we made by hand."/>
+<img src="/sharefood/JSON.png" alt="1 of Share Food's JSON files that we made by hand."/>
   <figcaption>
     An example of a JSON file for Share Food that we made.
   </figcaption>
 </figure>
-</div>
 
 ## Challenges and Outcome
 Something I would do in the future if given the opportunity would be organizing the components in actual folders, near the end of the project as we kept on building components, it was hard to tell which component was actually which. Thus leading to our group having to check every component file to find the actual component we had. An example of this was in the Button.js folder, where we would have 8 different button components in 1 file. 
 <br/>
 In the end, we were able to successfully build a fully functional web application and present our project to a room of over 50+ people.
-<div class="animate-fadeInDown">
+
 <figure>
 <img src="/sharefood/Components.png" class="w-5/12 h-full" alt="Undescriptive or inconsistent components, some of them would contain more then 5 completely different components in the same file."/>
   <figcaption>
     Undescriptive or inconsistent components, some of them would contain more then 5 completely different components in the same file.
   </figcaption>
 </figure>
-</div>
-
-<div class="flex flex-col items-center mt-2">
-## Links to Github Repo and Live Site
-<div class="flex justify-evenly w-full flex-col gap-5 md:flex-row md:gap-4 mt-2">
-<Button text="Github Repo" url="https://github.com/Pho86/ShareFood"/>
-<Button text="Live Site" url="https://sharefood.vercel.app/"/>
-</div>
-</div>
-</div>

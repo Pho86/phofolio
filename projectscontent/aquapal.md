@@ -1,75 +1,48 @@
----
-layout: "../layout.tsx"
-title: AquaPal
----
-import { Button } from "../../../components/button/button";
+# AquaPal 
 
-# AquaPal
-<div class="flex flex-col gap-2">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-5 animate-fadeInDown">
-<div >
 * **Project Scope:** 2 Months, October – November 2022
 * **Project Type:** 5 person project
 * **Role:** Project Manager - Lead Developer
 * **Tech used:** Express, EJS, SQLite, Axios
-<div class="flex justify-evenly flex-col gap-5 md:flex-row md:gap-4">
-   <Button text="Github Repo" url="https://github.com/Pho86/WaterTracker"/>
-   <Button text="Live Site" url="https://aquapal.onrender.com/"/>
-</div>
-</div>
-<figure class="mt-0">
-<img src="/aquapal/AquaPal.png" class="w-full h-full" alt="Monkey and otter swimming in the sea."/>
+
+<figure>
+<img src="/aquapal/AquaPal.png" alt="Monkey and otter swimming in the sea."/>
   <figcaption>
     Keeping track of your water, isn't fun, AquaPal is here to make sure you have fun while drinking your water.
   </figcaption>
 </figure>
-</div>
-<br/>
-<hr/>
-<br/>
+
 
 ## Project Brief
 AquaPal is a web application that helps you reach your water goals, to aid you reaching your goals, you can choose between having a monkey or an otter as a pet. They help you in having fun while drinking your water. 
-<div class="flex flex-col md:flex-row gap-2 animate-fadeInLeft">
+
 <figure>
 <img src="/aquapal/waterTracker.png" alt="Monkey saying SLAYYY"/>
   <figcaption>
     The homepage of AquaPal, displays your pet's current state based off of the amount of water you have drank in that session.
   </figcaption>
 </figure>
-</div>
 
 
 ## The Process
 For AquaPal, we wanted drinking water we wanted to create a web application that made drinking your water fun. To do so, we had people design and draw animals that you could call your pet. For our backend, we used SQLite, express, and used axios to post data whenever the user inputted that they drank water. Afterwards, we used EJS to parse and display the amount on the screen with the design so users can have a seamless experience. 
-<div class="flex flex-col justify-center md:flex-row animate-fadeInRight">
+
 <figure>
 <img src="/aquapal/Choose.png" alt="Example code snippet from express server"/>
   <figcaption>
     A code snippet of express rendering the data from the database onto an EJS rendered page. 
   </figcaption>
 </figure>
-</div>
 
 ## Challenges and Outcome
 A challenge I faced, was this was the first project I've using SQLite3 and EJS. I had to learn how to post and fetch data from the SQLite database and struggled during that time. It took time because I kept mixing strings and numbers together, which would create NaN errors because I would receive strings from inputs/selects and did not realize that. 
 
-<br/>
 In the end, we were able to successfully build a fully functional web application that can be used to keep track of your water drinking goals.
-<div class="flex flex-col md:flex-row gap-2 animate-fadeInDown">
+
 <figure>
 <img src="/aquapal/leaderboard.png" alt="AquaPal's leaderboard of highest drinking pet owners."/>
   <figcaption>
     AquaPal's leaderboard of highest drinking pet owners.
   </figcaption>
 </figure>
-</div>
 
-<div class="flex flex-col items-center mt-2">
-## Links to Github Repo and Live Site
-<div class="flex justify-evenly w-full flex-col gap-5 md:flex-row md:gap-4 mt-2">
-<Button text="Github Repo" url="https://github.com/Pho86/WaterTracker"/>
-<Button text="Live Site" url="https://aquapal.onrender.com/"/>
-</div>
-</div>
-</div>
