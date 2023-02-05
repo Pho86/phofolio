@@ -15,8 +15,8 @@ export default component$(() => {
         </div>
       </div>
       <div class="animate-fadeInDown delay-100">
-        <h2>Technology Stack</h2>
-        <div class="grid grid-cols-4 gap-2 items-center md:grid-cols-8">
+        <h2 class="mb-3">Technology Stack</h2>
+        <div class="grid grid-cols-6 justify-start gap-5 items-center md:grid-cols-8">
           <Logo text="Next JS" image="/logos/nextjs.png" />
           <Logo text="React" image="/logos/react.png" />
           <Logo text="React Native" image="/logos/reactnative.png" />
@@ -27,8 +27,8 @@ export default component$(() => {
           <Logo text="HTML" image="/logos/html.png" />
           <Logo text="CSS" image="/logos/css.png" />
           <Logo text="TailwindCSS" image="/logos/tailwindcss.png" />
-          <Logo text="Styled-components" image="/logos/styled-components.png" />
           <Logo text="SASS" image="/logos/sass.png" />
+          <Logo text="Styled-components" image="/logos/styled-components.png" />
           <Logo text="Storybook" image="/logos/story.png" />
           <Logo text="Firebase" image="/logos/firebase.webp" />
           <Logo text="SQLite" image="/logos/sqlite.png" />
@@ -37,7 +37,7 @@ export default component$(() => {
       </div>
 
       <div>
-        <h2>Projects</h2>
+        <h2 class="mb-3">Projects</h2>
         <div class="flex flex-col gap-8">
           <Project title="LocalToMe" url="/projects/localtome" image="/localtome/LocalToMe1.png" text="LocalToMe is a web application that locates and provides low-income families/individuals with free & accessible food resources near their area within their budgets." tech="Next JS, React, Styled-components, Framer-motion, Storybook, Firebase, Mapbox, Algolia" giturl="https://github.com/phoenixlai833/localtome" liveurl="https://localtome.vercel.app/" align={true} fadeIn={true} />
           <Project title="RainCheck" url="/projects/raincheck" image="/raincheck/RainChecks.png" text="RainCheck is an interactive map web application providing insights on the Vancouver housing market and lets you know how long it takes you to afford one. Created during BCIT’s QDS 2023 Hackathon." tech="Next JS, React, Styled-components, TailwindCSS, Framer-motion, React Leaflet, Axios" giturl="https://github.com/null-name-qds/hackathon" liveurl="https://qds-raincheck.vercel.app/welcome" />
