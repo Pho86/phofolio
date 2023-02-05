@@ -39,10 +39,10 @@ export const Project = component$((props: projectProps) => {
                         <h2 class="text-3xl">{props.title}</h2>
                      </a>
                      <div class="flex gap-2">
-                        <a href={props.giturl} title={"See Github"}>
+                        <a href={props.giturl} target="_blank" title={"See Github"}>
                            <img src="/github.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" />
                         </a>
-                        <a href={props.liveurl} title={"See Live Site"}>
+                        <a href={props.liveurl} target="_blank" title={"See Live Site"}>
                            <img src="/external.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" />
                         </a>
                      </div>
@@ -62,10 +62,10 @@ export const Project = component$((props: projectProps) => {
                               <h2 class="text-3xl">{props.title}</h2>
                            </a>
                            <div class="flex gap-2">
-                              <a href={props.giturl} title={"See Github"}>
+                              <a href={props.giturl} target="_blank" title={"See Github"}>
                                  <img src="/github.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" />
                               </a>
-                              <a href={props.liveurl} title={"See Live Site"}>
+                              <a href={props.liveurl} target="_blank" title={"See Live Site"}>
                                  <img src="/external.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" />
                               </a>
                            </div>
