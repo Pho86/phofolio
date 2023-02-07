@@ -4,7 +4,7 @@ import { Project } from '~/components/project/project';
 import { Logo } from '~/components/logo/logo';
 export default component$(() => {
   return (
-    <div class="flex flex-col gap-10 ">
+    <div class="flex flex-col gap-12">
       <div class="max-w-[100%] flex flex-col gap-5 animate-fadeInDown md:max-w-[75%]">
         <h1 class="text-5xl leading-tight">
           Front-End Developer, <br /> <span class="text-sky-400 text-6xl">Philip Ho</span>
@@ -38,7 +38,7 @@ export default component$(() => {
 
       <div>
         <h2 class="mb-5">Projects</h2>
-        <div class="flex flex-col gap-8">
+        <div class="flex flex-col gap-10">
           <Project title="LocalToMe" url="/projects/localtome" image="/localtome/LocalToMe1.png" text="LocalToMe is a web application that locates and provides low-income families/individuals with free & accessible food resources near their area within their budgets." tech="Next JS, React, Styled-components, Framer-motion, Storybook, Firebase, Mapbox, Algolia" giturl="https://github.com/phoenixlai833/localtome" liveurl="https://localtome.vercel.app/" align={true} fadeIn={true} />
           <Project title="RainCheck" url="/projects/raincheck" image="/raincheck/RainChecks.png" text="RainCheck is an interactive map web application providing insights on the Vancouver housing market and lets you know how long it takes you to afford one. Created during BCIT’s QDS 2023 Hackathon." tech="Next JS, React, Styled-components, TailwindCSS, Framer-motion, React Leaflet, Axios" giturl="https://github.com/null-name-qds/hackathon" liveurl="https://qds-raincheck.vercel.app/welcome" />
           <Project title="AquaPal" url="/projects/aquapal" image="/aquapal/AquaPals.png" text="AquaPal is a web application that helps you reach your water goals, to aid you reaching your goals, you can choose between having a monkey or an otter as a pet. They help you in having fun while drinking your water." tech="Express, EJS, SQLite, Axios" giturl="https://github.com/Pho86/WaterTracker" liveurl="https://aquapal.onrender.com/" align={true} fadeIn={true} />
