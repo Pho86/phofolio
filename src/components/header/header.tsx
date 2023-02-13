@@ -14,9 +14,9 @@ export default component$(() => {
             Github
           </li>
         </a>
-        <a href="https://github.com/Pho86/" class="px-8 py-4 hover:bg-neutral-900">
+        <a href={"/resume.pdf"} download={"Philip Ho Resume"} class="px-8 py-4 hover:bg-neutral-900">
           <li class="inline-block">
-            See Resume
+            Resume
           </li>
         </a>
       </ul>
