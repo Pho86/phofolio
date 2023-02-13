@@ -1,6 +1,5 @@
 import { component$, Slot } from '@builder.io/qwik';
 import Header from '../components/header/header';
-import PDF from "/resume.pdf"
 
 export default component$(() => {
   return (
@@ -21,7 +20,7 @@ export default component$(() => {
         <a href="mailto:philip03ho@gmail.com" target="_blank">
           Email
         </a>
-        <a href={PDF} download={"Philip Ho Resume"}>
+        <a href={"/resume.pdf"} download={"Philip Ho Resume"}>
           Resume
         </a>
       </footer>
