@@ -20,7 +20,7 @@ export default component$(() => {
         <a href="mailto:philip03ho@gmail.com" target="_blank">
           Email
         </a>
-        <a href={"/resume.pdf"} download={"Philip Ho Resume"}>
+        <a href="/resume.pdf" download="Philip Ho Resume">
           Resume
         </a>
       </footer>
