@@ -8,7 +8,9 @@ export default component$(() => {
           Home
         </div>
       </a>
-      <ul class="m-0 pl-1 text-right flex-1 p-2">
+      <div>
+
+      <ul class="m-0 pl-1 text-right flex-1 flex p-2">
         <a href="https://github.com/Pho86" target="_blank" class="px-8 py-4 hover:bg-neutral-900" >
           <li class="inline-block h-full">
             Github
@@ -20,6 +22,7 @@ export default component$(() => {
           </li>
         </a>
       </ul>
+      </div>
     </header>
   );
 });
