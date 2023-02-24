@@ -43,6 +43,7 @@
     "vite-tsconfig-paths": "3.5.0"
   },
   "dependencies": {
+    "jspdf": "^2.5.1",
     "tailwind-merge": "^1.1.1"
   }
 }
