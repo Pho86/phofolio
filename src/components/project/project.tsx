@@ -26,11 +26,11 @@ export const Project = component$((props: projectProps) => {
                   <a href={props.url} title={props.title} class="hover:scale-[1.03] transition duration-100 hover:drop-shadow-lg rounded">
                      {props.doubleimage &&
                         <div class="flex justify-between w-full gap-2">
-                           <img src={props.doubleimage[0]} class="w-1/2 justify-self-center" />
-                           <img src={props.doubleimage[1]} class="w-1/2 justify-self-center" />
+                           <img src={props.doubleimage[0]} class="w-1/2 justify-self-center" loading="lazy"/>
+                           <img src={props.doubleimage[1]} class="w-1/2 justify-self-center" loading="lazy"/>
                         </div>
                      }
-                     {props.image && <img src={props.image} class="rounded justify-self-center md:w-full" />}
+                     {props.image && <img src={props.image} class="rounded justify-self-center md:w-full" loading="lazy"/>}
                   </a>
                </div>
                <div class="flex flex-col justify-between gap-3">
@@ -40,10 +40,10 @@ export const Project = component$((props: projectProps) => {
                      </a>
                      <div class="flex gap-2">
                         <a href={props.giturl} target="_blank" title={"See Github"}>
-                           <img src="/github.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" />
+                           <img src="/github.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" loading="lazy"/>
                         </a>
                         <a href={props.liveurl} target="_blank" title={"See Live Site"}>
-                           <img src="/external.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" />
+                           <img src="/external.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" loading="lazy"/>
                         </a>
                      </div>
                   </div>
@@ -63,10 +63,10 @@ export const Project = component$((props: projectProps) => {
                            </a>
                            <div class="flex gap-2">
                               <a href={props.giturl} target="_blank" title={"See Github"}>
-                                 <img src="/github.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" />
+                                 <img src="/github.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" loading="lazy"/>
                               </a>
                               <a href={props.liveurl} target="_blank" title={"See Live Site"}>
-                                 <img src="/external.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" />
+                                 <img src="/external.png" class="w-8 hover:scale-125 transition duration-75 hover:drop-shadow-lg" loading="lazy"/>
                               </a>
                            </div>
                         </div>
@@ -78,11 +78,11 @@ export const Project = component$((props: projectProps) => {
                   <a href={props.url} title={props.title} class="hover:scale-[1.03] transition duration-100 hover:drop-shadow-lg rounded">
                      {props.doubleimage &&
                         <div class="flex justify-between w-full gap-2">
-                           <img src={props.doubleimage[0]} class="w-1/2 justify-self-center" />
-                           <img src={props.doubleimage[1]} class="w-1/2 justify-self-center" />
+                           <img src={props.doubleimage[0]} class="w-1/2 justify-self-center" loading="lazy"/>
+                           <img src={props.doubleimage[1]} class="w-1/2 justify-self-center" loading="lazy"/>
                         </div>
                      }
-                     {props.image && <img src={props.image} class="rounded justify-self-center h-full md:w-full" />}
+                     {props.image && <img src={props.image} class="rounded justify-self-center h-full md:w-full" loading="lazy"/>}
                   </a>
                </div>
             </>
